@@ -8,22 +8,22 @@ namespace minimalApiMongo.Properties.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Produces("application/json")]
-    public class ProductController : ControllerBase
+    public class ClientController : ControllerBase
     {
-        private readonly IMongoCollection<Product> _product;
+        private readonly IMongoCollection<Client> _client;
 
-        public ProductController(MongoDbService mongoDbService)
+        public ClientController(MongoDbService mongoDbService)
         {
-            _product = mongoDbService.GetDatabase.GetCollection<Product>("product");
+            _client = mongoDbService.GetDatabase.GetCollection<Client>("Client");
         }
-        [HttpGet("GetAll")]   
-        public async Task<ActionResult<List<Product>>> Get()
+
+        [HttpGet("GetAll")]
+        public async Task<ActionResult<List<Client>>> Get()
         {
             try
             {
-                var products = await _product.Find(FilterDefinition<Product>.Empty).ToListAsync();
-                return products is not null ? Ok(products) : NoContent();
+                var users = await _client.Find(FilterDefinition<Client>.Empty).ToListAsync();
+                return users is not null ? Ok(users) : NoContent();
             }
             catch (Exception e)
             {
@@ -37,7 +37,7 @@ namespace minimalApiMongo.Properties.Controllers
         {
             try
             {
-                var product = await _product.Find(x => x.Id == id).FirstOrDefaultAsync();
+                var client = await _client.Find(x => x.Id == id).FirstOrDefaultAsync();
 
                 //var filter = Builders<Product>.Filter.Eq(p => p.Id, id);
 
@@ -46,7 +46,7 @@ namespace minimalApiMongo.Properties.Controllers
                 //return Ok(res.First());
 
                 //Maneira de verificar o retorno do produto para não existir quebra de código
-                return product is not null ? Ok(product) : NotFound();
+                return client is not null ? Ok(client) : NotFound();
             }
             catch (Exception e)
             {
@@ -56,17 +56,20 @@ namespace minimalApiMongo.Properties.Controllers
 
         [HttpPost("Cadastrar")]
 
-        public async Task<ActionResult> Post(Product product) {
+        public async Task<ActionResult> Post(Client c)
+        {
             try
             {
-               Product novoProduto = new Product();
-                novoProduto.Name = product.Name;
-                novoProduto.Price = product.Price;  
-                novoProduto.AdditionalAttributes = product.AdditionalAttributes;
-                await _product.InsertOneAsync(product);
-                
+                Client novoClient = new Client();
+                novoClient.UserId = c.UserId;
+                novoClient.Cpf = c.Cpf;
+                novoClient.Phone = c.Phone;
+                novoClient.Address = c.Address;
+                novoClient.AdditionalAttributes = c.AdditionalAttributes;
+                await _client.InsertOneAsync(c);
 
-                return Ok(product);
+
+                return Ok(c);
             }
             catch (Exception e)
             {
@@ -80,7 +83,7 @@ namespace minimalApiMongo.Properties.Controllers
         {
             try
             {
-                await _product.DeleteOneAsync(p => p.Id == id);
+                await _client.DeleteOneAsync(p => p.Id == id);
                 return NoContent();
             }
             catch (Exception e)
@@ -91,33 +94,23 @@ namespace minimalApiMongo.Properties.Controllers
 
         [HttpPut("Atualizar")]
 
-        public async Task<ActionResult> Put(Product p)
+        public async Task<ActionResult> Put(Client c)
         {
             try
             {
-                var filter = Builders<Product>.Filter.Eq(x => x.Id, p.Id);
-                var res = await _product.Find(filter).ToListAsync();
-
-                if (p.Name == null) 
-                {
-                    p.Name = res.First().Name;
-                }
-                
-                if (p.Price == 0) 
-                {
-                    p.Price = res.First().Price;
-                }
+                var filter = Builders<Client>.Filter.Eq(x => x.Id, c.Id);
+                var res = await _client.Find(filter).ToListAsync();
 
                 //var update = Builders<Product>.Update
                 //.Set(p => p.Name, product.Name)
                 // .Set(p => p.Price, product.Price);
                 if (filter != null)
                 {
-                    await _product.ReplaceOneAsync(filter, p);
+                    await _client.ReplaceOneAsync(filter, c);
 
                     return Ok();
                 }
-               
+
 
                 return NotFound();
             }
