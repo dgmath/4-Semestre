@@ -15,17 +15,20 @@ namespace minimalApiMongo.Properties.Domains
         [BsonElement]
         public string? Status { get; set; }
 
-        [BsonElement("clientId"), BsonRepresentation(BsonType.ObjectId)]
+        // referencia dos produtos
+
+        [BsonElement("ProductId")]
+        public List<string>? ProductId { get; set; }
+
+        public List<Product>? Products { get; set; }
+
+
+        // referencia do cliente
+
+        [BsonElement("ClientId")]
         public string? ClientId { get; set; }
 
-        [BsonElement("product"), BsonRepresentation(BsonType.ObjectId)]
-        public List<string>? ProductsId { get; set; }
+        public Client? Client { get; set; }
 
-        public class OrderResponse
-        {
-            public Order Order { get; set; }
-            public Client Client { get; set; }
-            public List<Product> Products { get; set; }
-        }
     }
 }
