@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidacaoDeEmail", "ValidacaoDeEmail.csproj", "{C8FCDE0B-E73B-469B-BECB-391ECEF8707F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidacaoDeEmail.Test", "..\ValidacaoDeEmail.Test\ValidacaoDeEmail.Test.csproj", "{AB8DF204-CD3A-4800-B3C5-B3AE61AB037D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8FCDE0B-E73B-469B-BECB-391ECEF8707F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8FCDE0B-E73B-469B-BECB-391ECEF8707F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8FCDE0B-E73B-469B-BECB-391ECEF8707F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8FCDE0B-E73B-469B-BECB-391ECEF8707F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8DF204-CD3A-4800-B3C5-B3AE61AB037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8DF204-CD3A-4800-B3C5-B3AE61AB037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8DF204-CD3A-4800-B3C5-B3AE61AB037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8DF204-CD3A-4800-B3C5-B3AE61AB037D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7205249-942F-4784-9264-1B6D0DF0047F}
+	EndGlobalSection
+EndGlobal

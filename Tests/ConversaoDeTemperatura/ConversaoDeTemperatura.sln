@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeTemperatura", "ConversaoDeTemperatura.csproj", "{9FCC867A-9068-471E-911D-5C0B75EEDC20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoDeTemperatura.Test", "..\ConversaoDeTemperatura.Test\ConversaoDeTemperatura.Test.csproj", "{AFECA019-EB83-4B50-B24B-650ED89423E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FCC867A-9068-471E-911D-5C0B75EEDC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCC867A-9068-471E-911D-5C0B75EEDC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCC867A-9068-471E-911D-5C0B75EEDC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCC867A-9068-471E-911D-5C0B75EEDC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFECA019-EB83-4B50-B24B-650ED89423E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFECA019-EB83-4B50-B24B-650ED89423E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFECA019-EB83-4B50-B24B-650ED89423E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFECA019-EB83-4B50-B24B-650ED89423E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65DC7141-0C2D-407A-ADA7-5B0BE24D660E}
+	EndGlobalSection
+EndGlobal
