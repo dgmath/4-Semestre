@@ -141,3 +141,5 @@ C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\obj\Debug\net8.0\refint\Prod
 C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\obj\Debug\net8.0\ProductsApi.pdb
 C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\obj\Debug\net8.0\ProductsApi.genruntimeconfig.cache
 C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\obj\Debug\net8.0\ref\ProductsApi.dll
+C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\53025781823\Desktop\4-Semestre\ProductsApi\bin\Debug\net8.0\Moq.dll

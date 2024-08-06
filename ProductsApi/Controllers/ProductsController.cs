@@ -13,9 +13,9 @@ namespace ProductsApi.Controllers
     {
         private IProductsRepository _productsRepository { get; set; }
 
-        public ProductsController()
+        public ProductsController(IProductsRepository p)
         {
-            _productsRepository = new ProductRepository();
+            _productsRepository = p;
         }
 
         [HttpPost("Cadastrar")]
