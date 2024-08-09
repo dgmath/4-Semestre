@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\bin\Debug\net8.0\Exercicios Revisão.exe
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\bin\Debug\net8.0\Exercicios Revisão.deps.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\bin\Debug\net8.0\Exercicios Revisão.runtimeconfig.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\bin\Debug\net8.0\Exercicios Revisão.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\bin\Debug\net8.0\Exercicios Revisão.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.sourcelink.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\refint\Exercicios Revisão.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\Exercicios Revisão.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios Revisão\obj\Debug\net8.0\ref\Exercicios Revisão.dll

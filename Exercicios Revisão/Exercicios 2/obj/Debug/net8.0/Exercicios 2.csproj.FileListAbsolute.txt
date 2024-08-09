@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\bin\Debug\net8.0\Exercicios 2.exe
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\bin\Debug\net8.0\Exercicios 2.deps.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\bin\Debug\net8.0\Exercicios 2.runtimeconfig.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\bin\Debug\net8.0\Exercicios 2.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\bin\Debug\net8.0\Exercicios 2.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.sourcelink.json
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\refint\Exercicios 2.dll
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\Exercicios 2.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\4-Semestre\Exercicios 2\obj\Debug\net8.0\ref\Exercicios 2.dll
