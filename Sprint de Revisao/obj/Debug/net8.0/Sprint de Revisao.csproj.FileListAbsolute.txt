@@ -1,0 +1,15 @@
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.AssemblyInfoInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.AssemblyInfo.cs
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.csproj.CoreCompileInputs.cache
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.sourcelink.json
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\bin\Debug\net8.0\Sprint de Revisao.exe
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\bin\Debug\net8.0\Sprint de Revisao.deps.json
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\bin\Debug\net8.0\Sprint de Revisao.runtimeconfig.json
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\bin\Debug\net8.0\Sprint de Revisao.dll
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\bin\Debug\net8.0\Sprint de Revisao.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.dll
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\refint\Sprint de Revisao.dll
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.pdb
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\Sprint de Revisao.genruntimeconfig.cache
+C:\Users\53025781823\Desktop\4-Semestre\Sprint de Revisao\obj\Debug\net8.0\ref\Sprint de Revisao.dll
