@@ -1,0 +1,30 @@
+.inputPurple{
+    display: flex;
+    align-items: center;
+    background-color: #6C45CE;
+    width: 90%;
+    height: 60px;
+    border-radius: 8px;
+    /* justify-content: space-around; */
+}
+
+.duo{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.check{
+    width: 6.5%;
+    height: 45%;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 15%;
+    margin: 0;
+}

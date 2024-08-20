@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+   width: 750px;
+   height: 495px;
+    background-color: #1E123B;
+    align-items: center;
+    justify-content: center;
+    justify-self: center
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+      max-width: 992px;
+  }
+}

@@ -1,0 +1,39 @@
+.button-purple{
+    align-items: center;
+    justify-content: center;
+    /* right: 20%;
+    bottom: 50px; */
+    background-color: #8758FF;
+    border: 2px solid #FCFCFC;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px ;
+}
+
+.text{
+    color: #FCFCFC;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.edit{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px ;
+    border: 2px #FCFCFC solid;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.cancel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px ;
+    border: 2px #1E123B solid;
+    border-radius: 5px;
+    background-color: transparent;
+}

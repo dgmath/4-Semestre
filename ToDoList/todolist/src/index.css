@@ -1,0 +1,13 @@
+body {
+  background-color: #8758FF;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
