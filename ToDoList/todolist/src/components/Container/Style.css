@@ -1,12 +1,16 @@
 .container {
   display: flex;
    width: 750px;
-   height: 495px;
+   height: 500px;
     background-color: #1E123B;
     align-items: center;
-    justify-content: center;
-    justify-self: center
+    justify-content: space-evenly ;
+    justify-self: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-radius: 8px;
 }
+
 
 @media screen and (min-width: 992px) {
   .container {

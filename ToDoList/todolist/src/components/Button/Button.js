@@ -17,9 +17,9 @@ export const ButtonIconCancel = () => {
         </button>
     );
 }
-export const ButtonIconEdit = ({icone}) => {
+export const ButtonIconEdit = ({icone, borda}) => {
     return(
-        <button className='edit'>
+        <button style={{borderColor: borda}} className='edit'>
             <img className= 'lapis' src={icone} alt=""/>
         </button>
     );

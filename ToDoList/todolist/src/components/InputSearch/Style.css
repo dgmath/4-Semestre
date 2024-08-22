@@ -1,0 +1,28 @@
+.pesquisa{
+    border: 2px solid #FCFCFC;
+    border-radius: 8px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+
+.inp {
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    color: #FCFCFC;
+    padding-left: 10px;
+    width: 250px;
+    padding: 5px 0px 5px 5px ;
+}
+.inp::placeholder{
+    color: #FCFCFC;
+    font-family: 'OpenSans';
+}
+
+.icon{
+    padding: 5px 0px 5px 5px ;
+}

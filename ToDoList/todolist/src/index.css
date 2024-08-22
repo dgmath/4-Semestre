@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('./assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
 body {
   background-color: #8758FF;
   /* display: flex;
   align-items: center;
   justify-content: center; */
+  font-family: 'OpenSans';
+  color: #FCFCFC;
 }
 
 *{

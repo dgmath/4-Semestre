@@ -5,17 +5,19 @@ import pencil from '../../assets/icons/VectorIconeBranco.svg'
 
 import cancel from '../../assets/icons/Vector.svg'
 
-export const InputList = () => {
+export const InputList = ({ cor, corBorda, check, texto, onChange }) => {
     return (
-        <section className="inputPurple">
+        <section style={{ backgroundColor: cor }} className="inputPurple">
 
-            <input className='check' type='checkbox'/>
+            <div className='duo2'>
+                <input onChange={onChange} className='check' type='checkbox' checked={check} />
 
-            <p className='text'>Começar a execução do projeto</p>
+                <p className='text'>{texto}</p>
+            </div>
 
             <div className='duo'>
-                <ButtonIconEdit icone={cancel} />
-                <ButtonIconEdit icone={pencil} />
+                <ButtonIconEdit style={{borderColor: corBorda}} icone={cancel} />
+                <ButtonIconEdit style={{backgroundColor: corBorda}} icone={pencil} />
             </div>
 
         </section>
